@@ -3,10 +3,12 @@ name: SonarCloud Scan - dcm4che-core
 on:
   push:
     branches:
+      - 5.25.0-branch
       - master
   pull_request:
     branches:
-      - maater
+      - 5.25.0-branch
+      - master
 
 jobs:
   sonar:
